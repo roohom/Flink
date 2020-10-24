@@ -1,4 +1,4 @@
-package me.iroohom.WaterMark;
+package me.iroohom.WaterMarker;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -17,13 +17,13 @@ import org.apache.flink.util.OutputTag;
 import javax.annotation.Nullable;
 
 /**
- * @ClassName: WaterMark
+ * @ClassName: WaterMarker
  * @Author: Roohom
  * @Function: 水位线演示
  * @Date: 2020/10/23 11:36
  * @Software: IntelliJ IDEA
  */
-public class WaterMark {
+public class WaterMarker {
     /**
      * 开发步骤：
      * 1.初始化执行环境
@@ -72,7 +72,7 @@ public class WaterMark {
         //设置水位线
         SingleOutputStreamOperator<Boss> result = map.assignTimestampsAndWatermarks(new AssignerWithPeriodicWatermarks<Boss>() {
 
-            //设置延迟数据,单位是毫秒，2s延迟
+            //设置延迟数据,单位是毫秒，2s延迟,（最大允许的延迟时间或者乱序时间）
             final Long delayTime = 2000L;
 
             //设置当前时间
@@ -81,7 +81,7 @@ public class WaterMark {
             /**
              * 获取水位线数据
              * 水位线是一个延迟的时间轴，就会有延迟数据
-             * @return
+             * @return 返回新的水印（水位线）
              */
             @Nullable
             @Override
@@ -110,11 +110,11 @@ public class WaterMark {
                 //数据分组
                 .keyBy("company")
                 //每三秒触发一次窗口计算，依赖于事件时间
-                .timeWindow(Time.seconds(3))
+                .timeWindow(Time.seconds(4))
                 //在延迟的时间的基础上，再延迟2秒钟
-                .allowedLateness(Time.seconds(2))
+//                .allowedLateness(Time.seconds(2))
                 //侧输出流，简称侧边流
-                .sideOutputLateData(opt)
+//                .sideOutputLateData(opt)
                 //取price最大的一组值
                 .max("price");
 

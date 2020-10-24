@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f9def32-002d-4676-8093-8d4cf921f810" name="Default Changelist" comment="" />
+    <list default="true" id="9f9def32-002d-4676-8093-8d4cf921f810" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/src/main/java/me/iroohom/WaterMark/WaterMark.java" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/src/main/java/me/iroohom/WaterMarker/WaterMarker.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +36,16 @@
       <list>
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/roohom/Flink.git" />
+      </set>
     </option>
   </component>
   <component name="MavenImportPreferences">
@@ -31,6 +65,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1j8xbNusa68slbrn1TYqrDIflOo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,6 +75,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -66,7 +102,7 @@
       <recent name="me.iroohom" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckPoint">
+  <component name="RunManager" selected="Application.WaterMarker">
     <configuration name="CheckPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.iroohom.CheckPoint.CheckPoint" />
       <module name="Advanced" />
@@ -106,19 +142,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValueState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.iroohom.State.ValueState" />
-      <module name="Advanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.iroohom.State.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ValueStateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.iroohom.State.ValueStateDemo" />
       <module name="Advanced" />
@@ -132,20 +155,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WaterMarker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.iroohom.WaterMarker.WaterMarker" />
+      <module name="Advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.iroohom.WaterMarker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ValueState" />
       <item itemvalue="Application.CheckPointDemo" />
       <item itemvalue="Application.CheckPoint" />
       <item itemvalue="Application.ValueStateDemo" />
       <item itemvalue="Application.OperateState" />
+      <item itemvalue="Application.WaterMarker" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WaterMarker" />
         <item itemvalue="Application.CheckPoint" />
         <item itemvalue="Application.ValueStateDemo" />
         <item itemvalue="Application.OperateState" />
         <item itemvalue="Application.CheckPointDemo" />
-        <item itemvalue="Application.ValueState" />
       </list>
     </recent_temporary>
   </component>
@@ -169,12 +205,25 @@
       <workItem from="1603435154357" duration="8071000" />
       <workItem from="1603447069740" duration="7533000" />
       <workItem from="1603457302030" duration="344000" />
-      <workItem from="1603457655654" duration="208000" />
+      <workItem from="1603457655654" duration="2994000" />
+      <workItem from="1603524294980" duration="2610000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="121" y="0" key="#Project_Structure" timestamp="1603457766899">
@@ -207,29 +256,33 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="495" y="111" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1603457715812" />
-    <state width="1483" height="352" key="GridCell.Tab.0.bottom" timestamp="1603457806736">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1867" height="492" key="GridCell.Tab.0.bottom" timestamp="1603526290339">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1483" height="352" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603457806736" />
     <state width="904" height="540" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603208552263" />
+    <state width="1867" height="492" key="GridCell.Tab.0.bottom/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1603526290339" />
     <state width="1867" height="350" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603286405858" />
-    <state width="1483" height="352" key="GridCell.Tab.0.center" timestamp="1603457806736">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1867" height="492" key="GridCell.Tab.0.center" timestamp="1603526290339">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1483" height="352" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1603457806736" />
     <state width="904" height="540" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603208552263" />
+    <state width="1867" height="492" key="GridCell.Tab.0.center/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1603526290339" />
     <state width="1867" height="350" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603286405858" />
-    <state width="1483" height="352" key="GridCell.Tab.0.left" timestamp="1603457806736">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1867" height="492" key="GridCell.Tab.0.left" timestamp="1603526290339">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1483" height="352" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1603457806736" />
     <state width="904" height="540" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603208552263" />
+    <state width="1867" height="492" key="GridCell.Tab.0.left/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1603526290339" />
     <state width="1867" height="350" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603286405858" />
-    <state width="1483" height="352" key="GridCell.Tab.0.right" timestamp="1603457806736">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1867" height="492" key="GridCell.Tab.0.right" timestamp="1603526290339">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1483" height="352" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1603457806736" />
     <state width="904" height="540" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603208552263" />
+    <state width="1867" height="492" key="GridCell.Tab.0.right/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1603526290339" />
     <state width="1867" height="350" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603286405858" />
     <state x="246" y="104" key="IDE.errors.dialog" timestamp="1603419621087">
       <screen x="0" y="0" width="1536" height="864" />
