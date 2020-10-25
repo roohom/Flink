@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="DataStream" />
         <module name="DataSet" />
+        <module name="TableAndSql" />
         <module name="Baisc" />
         <module name="Advanced" />
       </profile>
@@ -19,6 +20,8 @@
       <module name="DataSet" target="1.8" />
       <module name="DataStream" target="1.8" />
       <module name="Flink" target="1.8" />
+      <module name="FlinkTable&amp;Sql" target="1.8" />
+      <module name="TableAndSql" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

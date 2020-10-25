@@ -12,7 +12,7 @@ import java.util.Properties;
 /**
  * @ClassName: SourceConsumerKafkaDemo
  * @Author: Roohom
- * @Function:
+ * @Function: Flink从Kafka消费
  * @Date: 2020/10/22 11:42
  * @Software: IntelliJ IDEA
  */
@@ -37,7 +37,7 @@ public class SourceConsumerKafkaDemo {
         Properties properties = new Properties();
         properties.setProperty("bootstrap.servers","node1:9092,node2:9092,node3:9092");
         properties.setProperty("group.id","test");
-        //kafka自己管理偏移量，从最近偏移量消费
+        //kafka自己管理偏移量，从最近偏移量消费,kafka自己管理偏移量
         properties.setProperty("auto.offset.resst","latest");
         properties.setProperty("flink.partition-discovery.interval-millis","5000");
 
@@ -49,7 +49,7 @@ public class SourceConsumerKafkaDemo {
         //从头消费，与kafka的偏移量无关
 //        consumer.setStartFromEarliest();
 
-        //从最新偏移量消费，与kafka的偏移量无关
+        //从最新偏移量消费，与kafka的偏移量无关，由Flink来管理
 //        consumer.setStartFromLatest();
 
         //默认参数，从最近的偏移量消费（企业中常用）

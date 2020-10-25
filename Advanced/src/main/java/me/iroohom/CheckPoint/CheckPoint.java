@@ -1,5 +1,7 @@
 package me.iroohom.CheckPoint;
 
+import org.apache.flink.api.common.restartstrategy.RestartStrategies;
+import org.apache.flink.api.common.time.Time;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.runtime.state.filesystem.FsStateBackend;
 import org.apache.flink.streaming.api.CheckpointingMode;
@@ -45,6 +47,17 @@ public class CheckPoint {
 
         //当任务取消的时候，保留检查点，企业中主要使用的方式，需要手动删除无效的检查点
         env.getCheckpointConfig().enableExternalizedCheckpoints(CheckpointConfig.ExternalizedCheckpointCleanup.RETAIN_ON_CANCELLATION);
+
+        /**
+         *  设置重启策略,每个三秒重启一起，总共重启三次，如果不设置重启策略，将会无限重启
+         *  1.固定延迟重启策略
+         *  env.setRestartStrategy(RestartStrategies.fixedDelayRestart(3,3000));
+         *  2.失败率重启策略
+         *  env.setRestartStrategy(RestartStrategies.failureRateRestart(3, Time.seconds(60), Time.seconds(5)));
+         *  3.不重启策略
+         *  env.setRestartStrategy(RestartStrategies.noRestart());
+         */
+
 
         //添加自定义数据源
         env.addSource(new CheckPointSource())

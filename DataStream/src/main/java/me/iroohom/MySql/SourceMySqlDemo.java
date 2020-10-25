@@ -16,7 +16,7 @@ import java.sql.ResultSet;
 /**
  * @ClassName: SourceMySqlDemo
  * @Author: Roohom
- * @Function: 自定义MySQL数据源
+ * @Function: 自定义MySQL数据源，从MySQL读取数据
  * @Date: 2020/10/22 10:45
  * @Software: IntelliJ IDEA
  */

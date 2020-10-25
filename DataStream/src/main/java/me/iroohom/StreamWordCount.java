@@ -11,7 +11,7 @@ import org.apache.flink.util.Collector;
 /**
  * @ClassName: StreamWordCount
  * @Author: Roohom
- * @Function:
+ * @Function: 流处理wordcount
  * @Date: 2020/10/22 09:59
  * @Software: IntelliJ IDEA
  */
