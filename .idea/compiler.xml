@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="DataStream" />
         <module name="DataSet" />
+        <module name="DataStream" />
         <module name="TableAndSql" />
         <module name="Baisc" />
         <module name="Advanced" />
+        <module name="IntegrateCase" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="DataStream" target="1.8" />
       <module name="Flink" target="1.8" />
       <module name="FlinkTable&amp;Sql" target="1.8" />
+      <module name="IntegrateCase" target="1.8" />
       <module name="TableAndSql" target="1.8" />
     </bytecodeTargetLevel>
   </component>

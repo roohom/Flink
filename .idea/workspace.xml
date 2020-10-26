@@ -20,33 +20,93 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f9def32-002d-4676-8093-8d4cf921f810" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced/src/main/java/me/iroohom/AsyncIO/AsyncReadMySqlMethod1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced/src/main/java/me/iroohom/AsyncIO/AsyncReadMySqlMethod2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced/src/main/java/me/iroohom/AsyncIO/DbUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced/src/main/java/me/iroohom/ExactlyOnce/ReadWriteKafka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced/src/main/java/me/iroohom/WaterMarker/WaterMarkerBounded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TableAndSql/TableAndSql.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TableAndSql/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TableAndSql/src/main/java/me/iroohom/Batch/BatchSqlReadCsvText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TableAndSql/src/main/java/me/iroohom/Batch/BatchSqlReadText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TableAndSql/src/main/java/me/iroohom/Stream/StreamSql.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datas/output/batchSqlCsvTableOutput.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datas/output/batchSqlOutput.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntegrateCase/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntegrateCase/src/main/java/me/iroohom/AutoGoodComment/AutoGoodComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntegrateCase/src/main/java/me/iroohom/BroacastStream/BroadcastStreamOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntegrateCase/src/main/java/me/iroohom/BroacastStream/errorExclud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntegrateCase/src/main/java/me/iroohom/DoubleElevenScreen/BigScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntegrateCase/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43622928-3e66-4ddd-9662-893f95ad5b60.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43622928-3e66-4ddd-9662-893f95ad5b60.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/src/main/java/me/iroohom/CheckPoint/CheckPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/src/main/java/me/iroohom/CheckPoint/CheckPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/CheckPoint/CheckPoint$CheckPointSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/CheckPoint/CheckPoint$CheckPointSource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/CheckPoint/CheckPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/CheckPoint/CheckPoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/src/main/java/me/iroohom/Kafka/SourceConsumerKafkaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStream/src/main/java/me/iroohom/Kafka/SourceConsumerKafkaDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/src/main/java/me/iroohom/MySql/SourceMySqlDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStream/src/main/java/me/iroohom/MySql/SourceMySqlDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/src/main/java/me/iroohom/Sink/SinkKafkaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStream/src/main/java/me/iroohom/Sink/SinkKafkaDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/src/main/java/me/iroohom/StreamWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStream/src/main/java/me/iroohom/StreamWordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/META-INF/Advanced.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod1$AsyncIoMethod1$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod1$AsyncIoMethod1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod1$AsyncIoMethod1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod1$AsyncIoSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod1$CategoryInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod2$AsyncIoSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod2$AsyncMethod2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod2$AsyncMethod2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod2$CategoryInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/DbUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/CheckPoint/CheckPoint$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/CheckPoint/CheckPoint$CheckPointSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/CheckPoint/CheckPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/ExactlyOnce/ReadWriteKafka.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/State/MapStateDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/State/MapStateDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/State/OperateStateListState$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/State/OperateStateListState$KafkaSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/State/OperateStateListState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/State/ValueStateDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/State/ValueStateDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/WaterMarker/WaterMarker$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/WaterMarker/WaterMarker$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/WaterMarker/WaterMarker$Boss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/WaterMarker/WaterMarker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/WaterMarker/WaterMarkerBounded$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/WaterMarker/WaterMarkerBounded$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/WaterMarker/WaterMarkerBounded$Boss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/WaterMarker/WaterMarkerBounded.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/Window/WindowCar$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/Window/WindowCar$Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/Window/WindowCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Kafka/SourceConsumerKafkaDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/MySql/SourceMySqlDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/MySql/SourceMySqlDemo$ReadMySql.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/MySql/SourceMySqlDemo$Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/MySql/SourceMySqlDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Sink/FlinkProducerToKafkaSink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Sink/SinkKafkaDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Sink/SinkMySqlDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Sink/SinkMySqlDemo$MySqlSinkFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Sink/SinkMySqlDemo$Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Sink/SinkMySqlDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Sink/SinkRedis$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Sink/SinkRedis$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Sink/SinkRedis$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Sink/SinkRedis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/StreamWordCount$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/StreamWordCount$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/StreamWordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Transformation/PartitionDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Transformation/PartitionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Transformation/UnionConnectDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Transformation/UnionConnectDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/customizeSource/MySource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/customizeSource/MySourceParallel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/customizeSource/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/customizeSource/StreamSourceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/META-INF/TableAndSql.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/me/iroohom/Batch/BatchSqlReadCsvText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/me/iroohom/Batch/BatchSqlReadText$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/me/iroohom/Batch/BatchSqlReadText$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/me/iroohom/Batch/BatchSqlReadText$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/me/iroohom/Batch/BatchSqlReadText$Score.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/me/iroohom/Batch/BatchSqlReadText$Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/me/iroohom/Batch/BatchSqlReadText$StudentScore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/me/iroohom/Batch/BatchSqlReadText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/me/iroohom/Stream/StreamSql$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/me/iroohom/Stream/StreamSql$Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/me/iroohom/Stream/StreamSql$StreamSourceFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/me/iroohom/Stream/StreamSql.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,37 +165,37 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Advanced/src/main/java/me/iroohom/AsyncIO" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/IntegrateCase/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32879582" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="me.iroohom" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IDEAJ\Flink\Advanced\src\main\java\me\iroohom\AsyncIO" />
-      <recent name="E:\IDEAJ\Flink\Advanced\src\main\resources" />
-      <recent name="E:\IDEAJ\Flink\DataStream\src\main\resources" />
-      <recent name="E:\IDEAJ\Flink\datas" />
-      <recent name="E:\IDEAJ\Flink\Baisc\src\main\resources" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\IDEAJ\Flink" />
       <recent name="E:\IDEAJ\" />
       <recent name="E:\IDEAJ\Bigdata\Flink" />
       <recent name="E:\IDEAJ\Bigdata" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEAJ\Flink\IntegrateCase\src\main\resources" />
+      <recent name="E:\IDEAJ\Flink\Advanced\src\main\java\me\iroohom\AsyncIO" />
+      <recent name="E:\IDEAJ\Flink\Advanced\src\main\resources" />
+      <recent name="E:\IDEAJ\Flink\DataStream\src\main\resources" />
+      <recent name="E:\IDEAJ\Flink\datas" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="me.iroohom" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.SinkKafkaDemo">
-    <configuration name="AsyncReadMySql" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.iroohom.AsyncIO.AsyncReadMySql" />
-      <module name="Advanced" />
+  <component name="RunManager" selected="Application.BroadcastStreamOut">
+    <configuration name="AutoGoodComment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.iroohom.AutoGoodComment.AutoGoodComment" />
+      <module name="IntegrateCase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.iroohom.AsyncIO.*" />
+          <option name="PATTERN" value="me.iroohom.DoubleElevenScreen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +203,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AsyncReadMySqlMethod2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.iroohom.AsyncIO.AsyncReadMySqlMethod2" />
-      <module name="Advanced" />
+    <configuration name="BigScreen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.iroohom.DoubleElevenScreen.BigScreen" />
+      <module name="IntegrateCase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.iroohom.AsyncIO.*" />
+          <option name="PATTERN" value="me.iroohom.DoubleElevenScreen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +216,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BatchSqlReadCsvText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.iroohom.Batch.BatchSqlReadCsvText" />
-      <module name="TableAndSql" />
+    <configuration name="BroadcastStreamOut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.iroohom.BroacastStream.BroadcastStreamOut" />
+      <module name="IntegrateCase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.iroohom.Batch.*" />
+          <option name="PATTERN" value="me.iroohom.BroacastStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,12 +242,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamSql" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.iroohom.Stream.StreamSql" />
-      <module name="TableAndSql" />
+    <configuration name="errorExclud" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.iroohom.BroacastStream.errorExclud" />
+      <module name="IntegrateCase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.iroohom.Stream.*" />
+          <option name="PATTERN" value="me.iroohom.BroacastStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,19 +256,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BatchSqlReadCsvText" />
-      <item itemvalue="Application.StreamSql" />
-      <item itemvalue="Application.AsyncReadMySql" />
-      <item itemvalue="Application.AsyncReadMySqlMethod2" />
       <item itemvalue="Application.SinkKafkaDemo" />
+      <item itemvalue="Application.BigScreen" />
+      <item itemvalue="Application.AutoGoodComment" />
+      <item itemvalue="Application.BroadcastStreamOut" />
+      <item itemvalue="Application.errorExclud" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BroadcastStreamOut" />
+        <item itemvalue="Application.errorExclud" />
+        <item itemvalue="Application.AutoGoodComment" />
+        <item itemvalue="Application.BigScreen" />
         <item itemvalue="Application.SinkKafkaDemo" />
-        <item itemvalue="Application.AsyncReadMySqlMethod2" />
-        <item itemvalue="Application.AsyncReadMySql" />
-        <item itemvalue="Application.StreamSql" />
-        <item itemvalue="Application.BatchSqlReadCsvText" />
       </list>
     </recent_temporary>
   </component>
@@ -236,6 +296,9 @@
       <workItem from="1603524294980" duration="4304000" />
       <workItem from="1603587164527" duration="8183000" />
       <workItem from="1603610211085" duration="22823000" />
+      <workItem from="1603676704458" duration="6912000" />
+      <workItem from="1603713431857" duration="6599000" />
+      <workItem from="1603720065530" duration="460000" />
     </task>
     <servers />
   </component>
@@ -258,10 +321,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="121" y="0" key="#Project_Structure" timestamp="1603611338989">
+    <state x="121" y="0" key="#Project_Structure" timestamp="1603719658961">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="121" y="0" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1603611338989" />
+    <state x="121" y="0" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1603719658961" />
     <state x="0" y="240" key="#SQL_Dialects" timestamp="1603335557958">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -274,10 +337,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="682" y="323" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603273855593" />
-    <state x="953" y="144" key="#com.intellij.ide.util.MemberChooser" timestamp="1603630111163">
+    <state x="953" y="144" key="#com.intellij.ide.util.MemberChooser" timestamp="1603715155499">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="953" y="144" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1603630111163" />
+    <state x="953" y="144" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1603715155499" />
     <state x="1191" y="190" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1603201437435" />
     <state x="1191" y="190" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603276308262" />
     <state x="690" y="162" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1603199634231">
@@ -288,38 +351,38 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="495" y="111" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1603457715812" />
-    <state width="1483" height="431" key="GridCell.Tab.0.bottom" timestamp="1603633977256">
+    <state width="1483" height="658" key="GridCell.Tab.0.bottom" timestamp="1603720522253">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1483" height="431" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603633977256" />
+    <state width="1483" height="658" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603720522253" />
     <state width="904" height="540" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603208552263" />
     <state width="1867" height="492" key="GridCell.Tab.0.bottom/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1603526290339" />
     <state width="1867" height="350" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603286405858" />
-    <state width="1483" height="431" key="GridCell.Tab.0.center" timestamp="1603633977256">
+    <state width="1483" height="658" key="GridCell.Tab.0.center" timestamp="1603720522253">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1483" height="431" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1603633977256" />
+    <state width="1483" height="658" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1603720522253" />
     <state width="904" height="540" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603208552263" />
     <state width="1867" height="492" key="GridCell.Tab.0.center/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1603526290339" />
     <state width="1867" height="350" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603286405858" />
-    <state width="1483" height="431" key="GridCell.Tab.0.left" timestamp="1603633977256">
+    <state width="1483" height="658" key="GridCell.Tab.0.left" timestamp="1603720522253">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1483" height="431" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1603633977256" />
+    <state width="1483" height="658" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1603720522253" />
     <state width="904" height="540" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603208552263" />
     <state width="1867" height="492" key="GridCell.Tab.0.left/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1603526290339" />
     <state width="1867" height="350" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603286405858" />
-    <state width="1483" height="431" key="GridCell.Tab.0.right" timestamp="1603633977256">
+    <state width="1483" height="658" key="GridCell.Tab.0.right" timestamp="1603720522253">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1483" height="431" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1603633977256" />
+    <state width="1483" height="658" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1603720522253" />
     <state width="904" height="540" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603208552263" />
     <state width="1867" height="492" key="GridCell.Tab.0.right/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1603526290339" />
     <state width="1867" height="350" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603286405858" />
-    <state width="262" height="550" key="HiddenNamespacesPopup" timestamp="1603627132281">
+    <state width="262" height="550" key="HiddenNamespacesPopup" timestamp="1603717806201">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="262" height="550" key="HiddenNamespacesPopup/0.0.1536.864@0.0.1536.864" timestamp="1603627132281" />
+    <state width="262" height="550" key="HiddenNamespacesPopup/0.0.1536.864@0.0.1536.864" timestamp="1603717806201" />
     <state x="246" y="104" key="IDE.errors.dialog" timestamp="1603419621087">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -337,10 +400,14 @@
     </state>
     <state x="89" y="0" width="1139" height="864" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1603593322305" />
     <state x="445" y="80" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603276986597" />
-    <state x="532" y="55" width="1004" height="809" key="new project wizard" timestamp="1603611475897">
+    <state x="595" y="127" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1603717795216">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="532" y="55" width="1004" height="809" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1603611475897" />
+    <state x="595" y="127" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.864@0.0.1536.864" timestamp="1603717795216" />
+    <state x="532" y="55" width="1004" height="809" key="new project wizard" timestamp="1603676760581">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="532" y="55" width="1004" height="809" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1603676760581" />
     <state x="158" y="130" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1603200093424" />
     <state x="158" y="130" key="new project wizard/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1603247401063" />
     <state x="431" y="36" width="840" height="828" key="search.everywhere.popup" timestamp="1603592196524">
