@@ -20,94 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f9def32-002d-4676-8093-8d4cf921f810" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/IntegrateCase/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IntegrateCase/src/main/java/me/iroohom/AutoGoodComment/AutoGoodComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IntegrateCase/src/main/java/me/iroohom/BroacastStream/BroadcastStreamOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IntegrateCase/src/main/java/me/iroohom/BroacastStream/errorExclud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IntegrateCase/src/main/java/me/iroohom/DoubleElevenScreen/BigScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IntegrateCase/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43622928-3e66-4ddd-9662-893f95ad5b60.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43622928-3e66-4ddd-9662-893f95ad5b60.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flink.assets/FlinkOnYarn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flink.assets/FlinkOnYarnMode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flink.assets/FlinkWorks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flink.assets/JobSeprated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flink.assets/LocalMode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flink.assets/StandAloneHAMode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flink.assets/StandAloneMode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flink.assets/diffs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flink.assets/howToRun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flink.assets/sessionMode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flink.assets/屏幕截图 2020-11-07 182700.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/META-INF/Advanced.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod1$AsyncIoMethod1$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod1$AsyncIoMethod1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod1$AsyncIoMethod1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod1$AsyncIoSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod1$CategoryInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod2$AsyncIoSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod2$AsyncMethod2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod2$AsyncMethod2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod2$CategoryInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/AsyncReadMySqlMethod2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/AsyncIO/DbUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/CheckPoint/CheckPoint$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/CheckPoint/CheckPoint$CheckPointSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/CheckPoint/CheckPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/ExactlyOnce/ReadWriteKafka.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/State/MapStateDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/State/MapStateDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/State/OperateStateListState$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/State/OperateStateListState$KafkaSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/State/OperateStateListState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/State/ValueStateDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/State/ValueStateDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/WaterMarker/WaterMarker$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/WaterMarker/WaterMarker$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/WaterMarker/WaterMarker$Boss.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/WaterMarker/WaterMarker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/WaterMarker/WaterMarkerBounded$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/WaterMarker/WaterMarkerBounded$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/WaterMarker/WaterMarkerBounded$Boss.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/WaterMarker/WaterMarkerBounded.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/Window/WindowCar$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/Window/WindowCar$Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/target/classes/me/iroohom/Window/WindowCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Kafka/SourceConsumerKafkaDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/MySql/SourceMySqlDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/MySql/SourceMySqlDemo$ReadMySql.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/MySql/SourceMySqlDemo$Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/MySql/SourceMySqlDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Sink/FlinkProducerToKafkaSink.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Sink/SinkKafkaDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Sink/SinkMySqlDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Sink/SinkMySqlDemo$MySqlSinkFunction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Sink/SinkMySqlDemo$Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Sink/SinkMySqlDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Sink/SinkRedis$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Sink/SinkRedis$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Sink/SinkRedis$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Sink/SinkRedis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/StreamWordCount$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/StreamWordCount$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/StreamWordCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Transformation/PartitionDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Transformation/PartitionDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Transformation/UnionConnectDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/Transformation/UnionConnectDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/customizeSource/MySource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/customizeSource/MySourceParallel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/customizeSource/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStream/target/classes/me/iroohom/customizeSource/StreamSourceDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/META-INF/TableAndSql.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/me/iroohom/Batch/BatchSqlReadCsvText.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/me/iroohom/Batch/BatchSqlReadText$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/me/iroohom/Batch/BatchSqlReadText$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/me/iroohom/Batch/BatchSqlReadText$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/me/iroohom/Batch/BatchSqlReadText$Score.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/me/iroohom/Batch/BatchSqlReadText$Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/me/iroohom/Batch/BatchSqlReadText$StudentScore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/me/iroohom/Batch/BatchSqlReadText.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/me/iroohom/Stream/StreamSql$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/me/iroohom/Stream/StreamSql$Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/me/iroohom/Stream/StreamSql$StreamSourceFunction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TableAndSql/target/classes/me/iroohom/Stream/StreamSql.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flink.assets/FlinkOnYarn模式.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flink.assets/FlinkOnYarn模式原理.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flink.assets/Flink组件.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flink.assets/Job分离模式.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flink.assets/StandAloneHA模式.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flink.assets/StandAlone模式.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flink.assets/session模式.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flink.assets/两种模式区别.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flink.assets/执行图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flink.assets/本地模式.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flink基础配置与基础原理.md" beforeDir="false" afterPath="$PROJECT_DIR$/Flink基础配置与基础原理.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,6 +234,8 @@
       <workItem from="1603676704458" duration="6912000" />
       <workItem from="1603713431857" duration="6599000" />
       <workItem from="1603720065530" duration="460000" />
+      <workItem from="1603870371840" duration="105000" />
+      <workItem from="1604920761244" duration="8000" />
     </task>
     <servers />
   </component>
@@ -404,10 +341,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="595" y="127" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.864@0.0.1536.864" timestamp="1603717795216" />
-    <state x="532" y="55" width="1004" height="809" key="new project wizard" timestamp="1603676760581">
+    <state x="532" y="55" width="1004" height="809" key="new project wizard" timestamp="1603870476893">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="532" y="55" width="1004" height="809" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1603676760581" />
+    <state x="532" y="55" width="1004" height="809" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1603870476893" />
     <state x="158" y="130" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1603200093424" />
     <state x="158" y="130" key="new project wizard/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1603247401063" />
     <state x="431" y="36" width="840" height="828" key="search.everywhere.popup" timestamp="1603592196524">

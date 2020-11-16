@@ -6,7 +6,7 @@
 
 
 
-![本地模式](./Flink.assets/本地模式.png)
+![本地模式](./Flink.assets/LocalMode.png)
 
 #### 原理
 
@@ -52,7 +52,7 @@
 
 
 
-![StandAlone模式](./Flink.assets/StandAlone模式.png)
+![StandAlone模式](./Flink.assets/StandAloneMode.png)
 
 #### 原理
 
@@ -111,7 +111,7 @@
 
 ### StandAloneHA高可用模式
 
-<img src="./Flink.assets/StandAloneHA模式.png" alt="HA模式" style="zoom: 80%;" />
+![standaLONEha](./Flink.assets/StandAloneHAMode.png)
 
 #### 配置
 
@@ -199,9 +199,9 @@
 
 #### 原理
 
-![FlinkOnYarn模式](./Flink.assets/FlinkOnYarn模式原理.png)
+![FlinkOnYarn模式](./Flink.assets/FlinkOnYarn.png)
 
-![FlinkOnYarn](./Flink.assets/FlinkOnYarn模式.png)
+![FlinkOnYarn](./Flink.assets/FlinkOnYarnMode.png)
 
 - 1.Client上传jar包和配置文件到HDFS集群上
 
@@ -223,7 +223,7 @@
 
 
 
-![Session模式](./Flink.assets/session模式.png)
+![Session模式](./Flink.assets/sessionMode.png)
 
 
 
@@ -275,7 +275,7 @@ yarn application -kill application_1603091655912_0002
 
 ##### Job分离模式
 
-![Job分离模式](./Flink.assets/Job分离模式.png)
+![Job分离模式](./Flink.assets/JobSeprated.png)
 
 - 特点：每次递交作业都需要申请一次资源
 
@@ -307,13 +307,13 @@ flink run -m yarn-cluster -ytm 1024 -yjm 1024 -ys 1 ../examples/batch/WordCount.
 
 ##### 两种模式的区别
 
-![区别](./Flink.assets/两种模式区别.png)
+![区别](./Flink.assets/diffs.png)
 
 ## Flink运行时组件
 
 
 
-![组件](./Flink.assets/Flink组件.png)
+![组件](./Flink.assets/FlinkWorks.png)
 
 - Flink运行时架构主要包括四个不同的组件，它们会在运行流处理应用程序时协同工作：
   - 作业管理器（JobManager）：分配任务、调度checkpoint做快照
@@ -347,7 +347,7 @@ flink run -m yarn-cluster -ytm 1024 -yjm 1024 -ys 1 ../examples/batch/WordCount.
 
 
 
-![执行图](./Flink.assets/执行图.png)
+![执行图](./Flink.assets/howToRun.png)
 
 
 
